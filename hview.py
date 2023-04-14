@@ -37,3 +37,7 @@ class HForm(Tk):
     def show(self):
         self.mainloop()
         pass
+
+    def addButton(self,__text,__command,__x,__y):
+        Button(self,text=__text,bg='Ivory',font=('微软雅黑',10),width=0,height=0,command=__command).place(x=__x,y=__y)
+        pass

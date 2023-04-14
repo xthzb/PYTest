@@ -6,5 +6,6 @@ def g():
 
 frm=HForm()
 frm.text='窗口'
-Button(frm,text='确 定',bg='Ivory',font=('微软雅黑',12),width=0,height=0,command=g).place(x=5,y=5)
+frm.addButton('asdf',g,10,1)
+frm.addButton('asdf',g,10,50)
 frm.show()
