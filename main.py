@@ -1,11 +1,8 @@
-from hview import *
+import htesseract
 
-def g():
-    frm.x+=10
-    frm.y+=10
+text=htesseract.getText('C:/Users/xthzb/OneDrive/Pictures/Screenshots/2023-04-21.png')
+print(text)
 
-frm=HForm()
-frm.text='窗口'
-frm.addButton('asdf',g,10,1)
-frm.addButton('asdf',g,10,50)
-frm.show()
+print('----------------------------------------hzb-')
+text=htesseract.getText('C:/Users/xthzb/OneDrive/Pictures/Screenshots/2023-04-21.png')
+print(text)
